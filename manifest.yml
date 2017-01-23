@@ -8,4 +8,4 @@ applications:
   host: digitalbanking-loanservice
   disk_quota: 1024M
   services:
-  - DigitalBankingDatabase
+  - loanserviceDb
