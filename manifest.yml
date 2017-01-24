@@ -1,11 +1,11 @@
 applications:
-- name: digitalbanking-loanservice
+- name: digitalbanking-loansservice
   buildpack: https://github.com/cloudfoundry/java-buildpack
   memory: 1024M
   instances: 1
   env:
     SPRING_PROFILES_ACTIVE: prod, cloudfoundry
-  host: digitalbanking-loanservice
+  host: digitalbanking-loansservice
   disk_quota: 1024M
   services:
   - loanserviceDb
