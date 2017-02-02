@@ -10,8 +10,8 @@ import javax.persistence.Table;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-/*@Configuration
-@Component*/
+@Configuration
+@Component
 @Entity
 @Table(name="loanmaster")
 public class LoanMaster implements Serializable{
