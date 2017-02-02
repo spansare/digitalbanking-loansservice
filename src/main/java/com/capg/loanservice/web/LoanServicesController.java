@@ -16,6 +16,8 @@ import com.capg.loanservice.service.LoanService;
 
 @RestController
 @ComponentScan("com.capg.loanservice")
+
+@EnableAutoConfiguration
 public class LoanServicesController {
 
 	@Autowired
