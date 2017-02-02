@@ -10,6 +10,9 @@ import javax.persistence.Table;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
+@Configuration
+@Component
+
 
 @Entity
 @Table(name="branch")
