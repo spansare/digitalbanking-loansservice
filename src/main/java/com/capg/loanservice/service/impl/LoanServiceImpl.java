@@ -11,6 +11,7 @@ import com.capg.loanservice.model.Customer;
 import com.capg.loanservice.model.Loan;
 import com.capg.loanservice.service.LoanService;
 
+@Component
 @Service
 public class LoanServiceImpl implements LoanService{
 
